@@ -1,0 +1,32 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    http://html-notepad.com/twenty-fifteen-child/
+ Description:  Twenty Seventeen Child
+ Author:       Andrew Fedoniouk
+ Author URI:   http://terrainformatica.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+
+img#screen-cast {
+  display:none;
+  box-shadow: 0 0 20px #333;
+  width:auto;
+  height:calc(97% - 240px);
+  max-height:690px;
+  max-width:none; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:3%;
+  margin:auto;
+}
+
+.twentyseventeen-front-page img#screen-cast {
+	display:block;
+}
+
